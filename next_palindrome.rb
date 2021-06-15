@@ -10,7 +10,6 @@ end
 def next_palindrome(input)
   digit_and_list = list_digits(input)
   digits = digit_and_list.values.first
-  require 'pry'; binding.pry
   digits
 end
 
